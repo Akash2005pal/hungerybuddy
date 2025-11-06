@@ -1,0 +1,45 @@
+.maincontainer{
+    width: 100vw;  
+}
+.stylebar{
+width: 100%;
+height: auto;
+
+display: flex;
+/* background: yellow; */
+
+}
+.styleTextOne{
+    font-size: 14px;
+    font-weight: bold;
+}
+.styletext{
+    display:flex;
+    flex-direction: column;
+    padding: 15px;
+}
+.styleone{
+font-size: 14px;
+color: #fff;
+}
+.styletwo{
+    font-size: 28px;
+    font-weight: bolder;
+    color: #fff;
+}
+.stylethree{
+    font-size: 18px;
+    font-weight: 900;
+    color: #fff;
+}
+.stylename{
+    font-size: 16px;
+    color: #fff;
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  width: 100%;
+}

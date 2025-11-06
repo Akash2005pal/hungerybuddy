@@ -1,0 +1,61 @@
+.maicontainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.stylebar {
+  width: 100%;
+  padding: 10px 20px;
+}
+
+.searchbox {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  border-radius: 40px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  padding: 8px 15px;
+  transition: all 0.3s ease-in-out;
+}
+
+.searchbox:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+.searchbox input {
+  width: 100%;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 16px;
+  padding: 10px;
+  color: #333;
+}
+
+.searchbox input::placeholder {
+  color: #aaa;
+}
+
+.searchbox img {
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.searchbox img:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 600px) {
+  .searchbox {
+    padding: 6px 10px;
+  }
+
+  .searchbox input {
+    font-size: 14px;
+  }
+}
