@@ -14,7 +14,7 @@ export default function category() {
     <div
       style={{
         width: "100%",
-        backgroundColor: "#121212",
+        // backgroundColor: "#121212",
         display: "flex",
         justifyContent: "center",
         gap: "20px",
